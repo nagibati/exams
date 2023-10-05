@@ -1,0 +1,29 @@
+# question 1
+# Kostiantyn Mazur
+
+taylorSwiftSongs = ["Love story", "Shake It Off" ,"Delicate" ,"Wildest Dreams" ,"All Too Well","Blank Space", "Bad Blood", "You Belong with Me","Red","22"]
+# it was an answer to qusteion 1(a)
+l=len(taylorSwiftSongs)
+
+song=input("enter a song")# this line asks user to enter a song to search for it in the list(b)
+if song == "Love story" or song =="Shake It Off" or song == "Delicate" or song =="Wildest Dreams" or song =="All Too Well" or song == "Blank Space" or song =="Bad Blood" or song =="You Belong with Me" or song=="Red" or song=="22":
+#the line above is to check is the song in the list (c)
+    print("Song you are looking for :",song,"the song",song,"is in the list of ",l,"songs ")
+else:
+    print("Song you are looking for:",song," the song ",song,"is not in the list of ",l,"songs")
+
+
+
+
+
+
+#question 2
+# Kostiantyn Mazur
+print("welcome to temperature alert system")
+temperature=int(input("enter temperature value in degrees Celsius:"))#ask the user to ener temperature
+if temperature <= 20 :# first condition 
+    print("too cold. Turn up heating ")
+elif temperature <= 24 and temperature >=20:#second condition
+    print("temperature is just right")
+else:# else command at the end 
+    print("too warm . Turn douwn heating")
